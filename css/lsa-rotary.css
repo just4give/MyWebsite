@@ -1,0 +1,1714 @@
+body {
+    background-color: #454545;
+    margin: 0;
+    padding: 0;
+    font-family: 'GothamFont';
+    font-style: normal;
+    color: #454545;
+}
+a, a:hover {
+    text-decoration: none;
+    color: #fff;
+}
+.fa, .i {
+    margin: 0;
+    padding: 0;
+}
+.fa:hover {
+    cursor: pointer;
+}
+.row {
+    margin: 0;
+}
+.center-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* gotham fonts */
+
+.font-gotham {
+    font-family: 'GothamFont';
+    font-style: normal;
+}
+/* end of gotham fonts */
+
+.navbar-default {
+    background-color: #188ccc;
+    height: 70px;
+    border-style: none;
+    border-radius: 0;
+    padding: 5px;
+    -webkit-box-shadow: 0px 1px 4px rgba(0,0,0,.3);
+    -moz-box-shadow: 0px 1px 4px rgba(0,0,0,.3);
+    box-shadow: 0px 1px 4px rgba(0,0,0,.3);
+}
+
+.sleep {
+    color: #fff;
+    background-color: #00A9E0;
+    background-image: url(images/radial_bg.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    /* Safari 4-5, Chrome 1-9 */
+    /* Can't specify a percentage size? Laaaaaame. */
+    background: -webkit-gradient(radial, center center, 0, center center, 460, from(#00A9E0), to(#188CCC));
+    /* Safari 5.1+, Chrome 10+ */
+    background: -webkit-radial-gradient(circle, #00A9E0, #004986);
+    /* Firefox 3.6+ */
+    background: -moz-radial-gradient(circle, #00A9E0, #188CCC);
+    /* IE 10 */
+    background: -ms-radial-gradient(circle, #00A9E0, #188CCC);
+}
+.stress {
+    background-color: #F1B434;
+    background-image: url(images/radial_bg.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    /* Safari 4-5, Chrome 1-9 */
+    /* Can't specify a percentage size? Laaaaaame. */
+    background: -webkit-gradient(radial, center center, 0, center center, 460, from(#F1B434), to(#F68621));
+    /* Safari 5.1+, Chrome 10+ */
+    background: -webkit-radial-gradient(circle, #F3C45C, #D9A22F);
+    /* Firefox 3.6+ */
+    background: -moz-radial-gradient(circle, #F1B434, #F68621);
+    /* IE 10 */
+    background: -ms-radial-gradient(circle, #F1B434, #F68621);
+}
+.exercise {
+    background-color: #F68621;
+    color: #fff;
+    background-image: url(images/radial_bg.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    /* Safari 4-5, Chrome 1-9 */
+    /* Can't specify a percentage size? Laaaaaame. */
+    background: -webkit-gradient(radial, center center, 0, center center, 460, from(#F1B434), to(#E35205));
+    /* Safari 5.1+, Chrome 10+ */
+    background: -webkit-radial-gradient(circle, #F1B434, #E35205);
+    /* Firefox 3.6+ */
+    background: -moz-radial-gradient(circle, #F1B434, #E35205);
+    /* IE 10 */
+    background: -ms-radial-gradient(circle, #F1B434, #E35205);
+}
+.nutrition {
+    background-color: #f73936;
+    color: #fff;
+    background-image: url(images/radial_bg.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    /* Safari 4-5, Chrome 1-9 */
+    /* Can't specify a percentage size? Laaaaaame. */
+    background: -webkit-gradient(radial, center center, 0, center center, 460, from(#F84D4A), to(#AC2727));
+    /* Safari 5.1+, Chrome 10+ */
+    background: -webkit-radial-gradient(circle, #F84D4A, #C52D2C);
+    /* Firefox 3.6+ */
+    background: -moz-radial-gradient(circle, #F84D4A, #E35205);
+    /* IE 10 */
+    background: -ms-radial-gradient(circle, #F84D4A, #E35205);
+}
+.weight {
+    background-color: #39B54A;
+    color: #fff;
+    background-image: url(images/radial_bg.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    /* Safari 4-5, Chrome 1-9 */
+    /* Can't specify a percentage size? Laaaaaame. */
+    background: -webkit-gradient(radial, center center, 0, center center, 460, from(#F84D4A), to(#007A3E));
+    /* Safari 5.1+, Chrome 10+ */
+    background: -webkit-radial-gradient(circle, #39B54A, #007A3E);
+    /* Firefox 3.6+ */
+    background: -moz-radial-gradient(circle, #F84D4A, #007A3E);
+    /* IE 10 */
+    background: -ms-radial-gradient(circle, #F84D4A, #007A3E);
+}
+
+
+/* Circles */
+.circle-lg:hover, .circle-sm:hover, .circle-med:hover, .circle-sm:hover  {
+    background-color: #898989;
+    cursor: pointer;
+    color: #fff;
+}
+.circle-xl {
+    padding: 7px;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    color: #fff;
+    -webkit-box-shadow: 0px 1px 4px rgba(0,0,0,.3);
+    -moz-box-shadow: 0px 1px 4px rgba(0,0,0,.3);
+    box-shadow: 0px 1px 4px rgba(0,0,0,.3);
+}
+.circle-xl img {
+    display: block;
+    height: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+.circle-lg {
+    border-radius: 65px;
+    padding: 10px;
+    height: 130px;
+    width: 130px;
+    color: #fff;
+    border-color: #D9D9D6;
+    -webkit-box-shadow: 0px 1px 4px rgba(0,0,0,.3);
+    -moz-box-shadow: 0px 1px 4px rgba(0,0,0,.3);
+    box-shadow: 0px 1px 4px rgba(0,0,0,.3);
+}
+.circle-lg img {
+    display: block;
+    height: 60px;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+.circle-med {
+    border-radius: 65px;
+    border-color: #D9D9D6;
+    padding: 15px;
+    height: 130px;
+    width: 130px;
+    color: #fff;
+}
+.circle-med img {
+    display: block;
+    height: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+.circle-sm {
+    border-radius: 50%;
+    padding: 5px;
+    height: 80px;
+    width: 80px;
+    border-color: #D9D9D6;
+}
+.circle-sm img{
+    width: 60px;
+    height: 60px;
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.circle-back {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border-color: #fff;
+    border-style: solid;
+    border-width: 2px;
+}
+
+
+.text-label {
+    font-size: 1.1em;
+    font-family: gotham-book;
+    font-weight: 500;
+    text-align: center;
+    line-height: 1.3em;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+.text-sm {
+    font-size: 1.1em;
+    font-family: gotham-book;
+    font-weight: 500;
+    text-align: center;
+    line-height: 1.3em;
+    margin-top: 0;
+}
+.text-md {
+    font-size: 1.2em;
+    font-family: gotham-book;
+    font-weight: 500;
+    color: #fff;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+.text-lg {
+    font-size: 1.3em;
+    font-family: gotham-book;
+    font-weight: 300;
+    color: #fff;
+    text-align: center;
+    margin-top: 0;
+    line-height: 1.3em;
+}
+.text-xl {
+    font-size: 1.4em;
+    font-family: gotham-book;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    margin-top: 15px;
+    line-height: 1.3em;
+}
+h3 {
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+
+
+
+
+
+
+/* Circle Positions */
+.main-container {
+    position: relative;
+}
+.center {
+    position: absolute;
+    top: 180px;
+    left: 360px;
+}
+.home-exercise {
+    position: absolute;
+    top: 460px;
+    left: 490px;
+}
+.home-sleep {
+    position: absolute;
+    top: 275px;
+    left: 650px;
+}
+.home-nutrition {
+    position: absolute;
+    top: 35px;
+    left: 525px;
+}
+.home-weight {
+    position: absolute;
+    top: 100px;
+    left: 225px;
+}
+.home-stress {
+    position: absolute;
+    top: 390px;
+    left: 235px;
+}
+.home-exit {
+    position: absolute;
+    top: 360px;
+    left: 190px;
+}
+.answer-opt-1 {
+    position: absolute;
+    top: 90px;
+    left: 605px;
+}
+.answer-opt-2 {
+    position: absolute;
+    top: 415px;
+    left: 570px;
+}
+.answer-opt-3 {
+    position: absolute;
+    top: 390px;
+    left: 230px;
+}
+.answer-opt-4 {
+    position: absolute;
+    top: 55px;
+    left: 270px;
+}
+.answer-exit {
+    position: absolute;
+    top: 380px;
+    left: 200px;
+}
+.q-1 {
+   margin-left: 10px;
+    margin-top: 12px;
+}
+.q-2 {
+     margin-left: 10px;
+    margin-top: 12px;
+}
+.q-3 {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 12px;
+}
+.q-4 {
+    margin-right: 10px;
+    margin-top: 12px;
+}
+
+.q-nav{
+    overflow: hidden;
+    position: absolute;
+    top: 590px;
+    left: 390px;
+    margin-bottom: 25px;
+    background-color: #ababab;
+    border-color: #ccc;
+    border-style: solid;
+    border-width: 0px;
+    border-radius: 40px;
+    padding: 0px;
+    padding-top: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-image: url(images/radial_bg.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    /* Safari 4-5, Chrome 1-9 */
+    /* Can't specify a percentage size? Laaaaaame. */
+    background: -webkit-gradient(radial, center center, 0, center center, 460, from(#F84D4A), to(#007A3E));
+    /* Safari 5.1+, Chrome 10+ */
+    background: -webkit-radial-gradient(circle, #ccc, #888);
+    /* Firefox 3.6+ */
+    background: -moz-radial-gradient(circle, #F84D4A, #007A3E);
+    /* IE 10 */
+    background: -ms-radial-gradient(circle, #F84D4A, #007A3E);
+}
+
+
+
+.home {
+    border-color: #C8C9C7;
+    border-style: solid;
+    border-width: 2px;
+    background-color: #D9D9D6;
+    color: #343434;
+}
+
+
+.show-nav {
+    visibility: visible;
+}
+
+.sleep-option {
+    background-color: #D9D9D6;
+    border-color: #C8C9C7;
+    border-style: solid;
+    border-width: 3px;
+}
+.sleep-option h3 {
+    color: #343434;
+
+}
+.sleep-current, .sleep-current:hover {
+    background-color: #fff;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #00A9E0;
+    cursor: default;
+}
+.sleep-selected {
+    /*background-color: #188CCC;*/
+    background-color: #00A9E0;
+    color: #fff;
+}
+
+.registration-current {    background-color: #fff;    border-style: solid;    border-width: 5px;    border-color: #787878;}
+.registration-current h4{    font-size: 3em;    font-weight: 500;    color: #787878;    margin-top: 3px;}
+
+
+/* added class for stress question page by Mithun */
+.stress-option {
+    background-color: #D9D9D6;
+    border-color: #C8C9C7;
+    border-style: solid;
+    border-width: 3px;
+}
+.stress-option h3 {
+    color: #343434;
+
+}
+.stress-option:hover {
+    background-color: #787878;
+}
+.stress-current, .stress-current:hover {
+    background-color: #fff;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #EDB34B;
+    cursor: default;
+}
+.stress-selected {
+    /*background-color: #EDB34B;*/
+    background-color: #fbbf43;
+    color: #fff;
+}
+.stress-selected h4 {
+    font-size: 1.5em;
+    font-weight: 300;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+/* end of stress css class by Mithun */
+
+
+
+.exercise-answers {
+    background-color:  #F1B434;
+    color: #fff;
+}
+
+/* added class for exercise question page by Mithun */
+.exercise-option {
+    background-color: #D9D9D6;
+    border-color: #C8C9C7;
+    border-style: solid;
+    border-width: 3px;
+}
+.exercise-option h3 {
+    color: #343434;
+
+}
+.exercise-current, .exercise-current:hover {
+    background-color: #fff;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #F68621;
+}
+.exercise-selected {
+    background-color: #F68621;
+    color: #fff;
+}
+.exercise-selected h4 {
+    font-size: 1.5em;
+    font-weight: 300;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+/* end of exercise css class by Mithun */
+
+
+
+.nutrition h4, .sleep h4, .exercise h4, .weight h4, .stress h4 {
+    color: #fff;
+}
+.nutrition-answers {
+    background-color: #ec9d9d;
+    color: #fff;
+}
+
+/* added class for nutrition question page by Mithun */
+.nutrition-option {
+    background-color: #D9D9D6;
+    border-color: #C8C9C7;
+    border-style: solid;
+    border-width: 3px;
+}
+.nutrition-option h3 {
+    color: #343434;
+
+}
+.nutrition-current, .nutrition-current:hover {
+    background-color: #fff;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #f73936;
+    cursor: default;
+}
+.nutrition-selected {
+    /*background-color: #DB1E27;*/
+    background-color: #f73936;
+    color: #fff;
+}
+.nutrition-selected h4 {
+    font-size: 1.5em;
+    font-weight: 300;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+/* end of nutrition css class by Mithun */
+
+
+/* added class for weight question page by Mithun */
+.weight-option {
+    background-color: #39B54A;
+}
+
+.weight-option:hover {
+    background-color: #787878;
+    color: #fff;
+}
+.weight-current, .weight-current:hover {
+    background-color: #fff;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #39B54A;
+    cursor: default;
+}
+.weight-selected {
+    background-color: #39B54A;
+    color: #fff;
+}
+
+/* end of weight css class by Mithun */
+
+/* css added for result page by Mithun */
+.result-content-1 {
+    position: absolute;
+    top: 340px;
+    left: 195px;
+}
+.result-content-2 {
+    position: absolute;
+    top: 450px;
+    left: 460px;
+}
+.result-content-3 {
+    position: absolute;
+    top: 15px;
+    left: 500px;
+}
+
+.result-content-4 {
+  position: absolute;
+  top: 50px;
+  left: 220px;
+}
+
+.result-content-5 {
+  position: absolute;
+  top: 240px;
+  left: 640px;
+}
+
+.result-exit {
+    position: absolute;
+    top: 500px;
+    left: 238px;
+}
+.result-category-1 {
+    position: absolute;
+    top: 35px;
+    left: 380px;
+}
+.result-category-2 {
+    position: absolute;
+    top: 478px;
+    left: 340px;
+}
+.result-category-3 {
+    position: absolute;
+    top: 220px;
+    left: 210px;
+}
+
+.result-category-4 {
+    position: absolute;
+    top: 410px;
+    left: 630px;
+}
+.result-category-5 {
+    position: absolute;
+    top: 145px;
+    left: 645px;
+}
+
+.result-exercise-default {
+    background-color: #D0D0CE;
+    border-style: solid;
+
+    border-color: #F68621;
+}
+
+.result-exercise-selected {
+    background-color: #F68621;
+}
+.result-nutrition-default {
+    background-color: #D0D0CE;
+    border-style: solid;
+    border-color: #f73936;
+}
+
+.result-nutrition-selected {
+    background-color: #f73936;
+}
+.result-sleep-default {
+    background-color: #D0D0CE;
+    border-style: solid;
+    border-color: #00A9E0;
+}
+.result-sleep-selected {
+    background-color: #00A9E0;
+}
+.result-weight-default {
+    background-color: #D0D0CE;
+    border-style: solid;
+    border-color: #39B54A;
+}
+
+.result-weight-selected {
+    background-color: #39B54A;
+}
+.result-stress-default {
+    background-color: #D0D0CE;
+    border-style: solid;
+    border-color: #fbbf43;
+}
+.result-stress-selected {
+    background-color: #fbbf43;
+}
+
+.circle-border {
+    border-width: 5px;
+    border-color: #D9D9D6;
+    border-style: solid;
+}
+.result-category-title {
+    border-radius: 40px;
+    padding: 5px;
+    height: 80px;
+    width: 80px;
+    -webkit-box-shadow: 0px 1px 4px rgba(0,0,0,.3);
+    -moz-box-shadow: 0px 1px 4px rgba(0,0,0,.3);
+    box-shadow: 0px 1px 4px rgba(0,0,0,.3);
+}
+
+
+.result-category-title img {
+    display: block;
+    height: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
+.result-content{
+    border-radius: 75px;
+    padding: 15px;
+    height: 150px;
+    width: 150px;
+    color: #fff;
+    /*background-color: #39B54A;*/
+    -webkit-box-shadow: 0px 1px 4px rgba(0,0,0,.3);
+    -moz-box-shadow: 0px 1px 4px rgba(0,0,0,.3);
+    box-shadow: 0px 1px 4px rgba(0,0,0,.3);
+}
+.result-content h4 {
+    font-size: 1.0em;
+    font-weight: 300;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.cigna-logo img{
+    height: 100px;
+    margin-top: 30px;
+}
+/* end of result page css */
+
+/* css for login/registration */
+.center-text{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+.login-small-1 {
+    position: absolute;
+    top: 300px;
+    left: 260px;
+}
+.login-small-2 {
+    position: absolute;
+    top: 230px;
+    left: 320px;
+}
+.login-small-3 {
+    position: absolute;
+    top: 195px;
+    left: 415px;
+}
+@keyframes myOrbit {
+    from { transform: rotate(0deg) translateX(150px) rotate(0deg); }
+    to   { transform: rotate(360deg) translateX(150px) rotate(-360deg); }
+}
+@-webkit-keyframes myOrbit {
+    from { -webkit-transform: rotate(0deg) translateX(150px) rotate(0deg); }
+    to   { -webkit-transform: rotate(360deg) translateX(150px) rotate(-360deg); }
+}
+
+@-moz-keyframes myOrbit {
+    from { -moz-transform: rotate(0deg) translateX(150px) rotate(0deg); }
+    to   { -moz-transform: rotate(360deg) translateX(150px) rotate(-360deg); }
+}
+
+@-o-keyframes myOrbit {
+    from { -o-transform: rotate(0deg) translateX(150px) rotate(0deg); }
+    to   { -o-transform: rotate(360deg) translateX(150px) rotate(-360deg); }
+}
+.login-1 {
+    position: absolute;
+    top: 70px;
+    left: 250px;
+}
+.login-2 {
+    position: absolute;
+    top: 455px;
+    left: 500px;
+}
+.login-3 {
+    position: absolute;
+    top: 270px;
+    left: 650px;
+}
+.login-4 {
+    position: absolute;
+    top: 50px;
+    left: 560px;
+}
+.login-5 {
+    position: absolute;
+    top: 350px;
+    left: 205px;
+}
+
+.google img{
+    height: 30px;
+    width: 20px;
+
+}
+
+.email img{
+    height: 40px;
+    width: 40px;
+}
+
+.facebook{
+    background-color: #004986;
+}
+.facebook img{
+    height: 40px;
+    width: 20px;
+}
+.roundedinput {
+    height: 35px;
+    -webkit-border-radius: 18px;
+    -moz-border-radius: 18px;
+    border-radius: 18px;
+    width: 95%;
+    border: 2px solid #565656;
+    text-align: center;
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
+.password {
+    width: 65%;
+}
+input {
+    color: #232323;
+}
+.input-height {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5px;
+    width: 125px;
+    height: 40px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 2em;
+    color: #343434;
+}
+.input-weight {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5px;
+    width: 125px;
+    height: 40px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 2em;
+    color: #343434;
+}
+.error{
+    color: #ff0000;
+    text-align: center;
+    margin-top: -15px;
+}
+.error-text{
+    border-color: #ff0000;
+}
+.login-center-xl img{
+    height: 60px;
+    margin-top: 0px;
+}
+.login-center-xl h6{
+    margin-top: 15px;
+    margin-bottom: 5px;
+    /*color: #787878;*/
+    color: #FFFFFF;
+}
+.dob-hd-label{    position: absolute;    top: 30px;    left: 40px;}
+.dob-dd-label{    position: absolute;    top: 80px;    left: 45px;}
+.dob-dd-input{     position: absolute;    top: 120px;    left: 40px;    width: 60px;}
+.dob-mm-label{    position: absolute;    top: 80px;    left: 155px;}
+.dob-mm-input{     position: absolute;    top: 120px;    left: 150px;    width: 60px;}
+.dob-yy-label{    position: absolute;    top: 150px;    left: 85px;}
+.dob-yy-input{     position: absolute;    top: 190px;    left: 75px;    width: 100px;}
+
+
+
+/* end of login/registration */
+.exit {
+    color: #fff;
+    margin-top: 30px;
+    margin-left: 0;
+}
+.results {
+    background-color: #787878;
+    color: #fff;
+    background-image: url(images/radial_bg.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    /* Safari 4-5, Chrome 1-9 */
+    /* Can't specify a percentage size? Laaaaaame. */
+    background: -webkit-gradient(radial, center center, 0, center center, 460, from(#F1B434), to(#E35205));
+    /* Safari 5.1+, Chrome 10+ */
+    background: -webkit-radial-gradient(circle, #9a9a9a, #565656);
+    /* Firefox 3.6+ */
+    background: -moz-radial-gradient(circle, #F1B434, #E35205);
+    /* IE 10 */
+    background: -ms-radial-gradient(circle, #F1B434, #E35205);
+}
+.selected {
+    background-color: #6b36b0;
+    color: #fff;
+}
+.modal-icon {
+    height: 60px;
+    width: auto;
+    margin-right: 15px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+.margin-bottom-20 {
+    margin-bottom: 20px;
+}
+.margin-bottom-0 {
+    margin-bottom: 0;
+}
+.margin-top-5 {
+    margin-top: 5px;
+}
+.margin-top-10 {
+    margin-top: 10px;
+}
+.margin-top-20 {
+    margin-top: 20px;
+}
+.margin-right-5 {
+    margin-right: 5px;
+}
+.margin-top-100 {
+    margin-top: 100px;
+}
+.margin-top-50 {
+    margin-top: 50px;
+}
+.margin-right-10 {
+    margin-right: 10px;
+}
+.margin-left-10 {
+    margin-left: 10px;
+}
+.pad-right-20 {
+    padding-right: 20px;
+}
+.pad-top-20 {
+    padding-top: 20px;
+}
+.pad-bottom-30 {
+    padding-bottom: 30px;
+}
+.margin-right-20 {
+    margin-right: 20px;
+}
+.pad-l-r {
+    pad-left: 10px;
+    pad-right: 10px;
+}
+.margin-l-r {
+    margin-left: 11px;
+    margin-right: 11px;
+}
+.margin-l-r-20 {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.zero {
+    padding: 0;
+   /* margin: 0;*/
+}
+
+.q-unanswered {
+    background-color: #454545;
+}
+.q-unanswered:hover {
+    background-color: #454545;
+    color: #fff;
+}
+
+.square {
+    height: 15px;
+    width: 15px;
+    border-radius: 8px;
+    background-color: #fff;
+    float: left;
+}
+.square-thin{
+    height: 15px;
+    width: 15px;
+    border-radius: 8px;
+    border: 1px solid #fff;
+    float: left;
+}
+.progress-circle {
+    height: 15px;
+    width: 15px;
+    border-radius: 8px;
+    float: left;
+}
+.indicator-nutrition{
+    overflow: hidden;
+    width: 100px;
+    margin-left: 18px;
+    margin-top: 0px;
+}
+.indicator-sleep{
+    overflow: hidden;
+    width: 100px;
+    margin-left: 27px;
+    margin-top: 0px;
+}
+.indicator-exercise{
+    overflow: hidden;
+    width: 100px;
+    margin-left: 27px;
+    margin-top: 0px;
+}
+.indicator-stress{
+    overflow: hidden;
+    width: 60px;
+    margin-left: 27px;
+    margin-top: 0px;
+}
+.indicator-weight{
+    overflow: hidden;
+    width: 100px;
+    margin-left: 37px;
+    margin-top: 0px;
+}
+.hyperlink:hover{
+    /*background-color: #D0D0CE;*/
+    cursor: pointer;
+}
+
+.name{
+    width: 80%;
+
+}
+.display-name{
+    width: 95%;
+}
+
+.nav-title{
+   float: right;
+   margin-top: 30px;
+    font-size: 1.6em;
+    font-weight: bold;
+}
+.fade-in {
+    opacity:0;  /* make things invisible upon start */
+    -webkit-animation:fadeIn ease-in 1;  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+    -moz-animation:fadeIn ease-in 1;
+    animation:fadeIn ease-in 1;
+
+    -webkit-animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+    -moz-animation-fill-mode:forwards;
+    animation-fill-mode:forwards;
+
+    -webkit-animation-duration: .5s;
+    -moz-animation-duration: .5s;
+    animation-duration: .5s;
+}
+.fade-out {
+    opacity:1;  /* make things invisible upon start */
+    -webkit-animation:fadeOut ease-out 0;  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+    -moz-animation:fadeOut ease-out 0;
+    animation:fadeOut ease-out 0;
+
+    -webkit-animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+    -moz-animation-fill-mode:forwards;
+    animation-fill-mode:forwards;
+
+    -webkit-animation-duration: .5s;
+    -moz-animation-duration: .5s;
+    animation-duration: .5s;
+}
+.fade-in.one  {
+    -webkit-animation-delay: 0.1s;
+    -moz-animation-delay: 0.1s;
+    animation-delay: 0.1s;
+}
+
+.fade-in.two, .fade-out.two {
+    -webkit-animation-delay: .25s;
+    -moz-animation-delay:.25s;
+    animation-delay: .25s;
+}
+
+.fade-in.three, .fade-out.three {
+    -webkit-animation-delay: .4s;
+    -moz-animation-delay: .4s;
+    animation-delay: .4s;
+}
+.fade-in.four, .fade-out.four {
+    -webkit-animation-delay: .55s;
+    -moz-animation-delay: .55s;
+    animation-delay: .55s;
+}
+.fade-in.five, .fade-out.five {
+    -webkit-animation-delay: .7s;
+    -moz-animation-delay: .7s;
+    animation-delay: .7s;
+}
+.fade-in.six, .fade-out.six {
+    -webkit-animation-delay: .85s;
+    -moz-animation-delay: .85s;
+    animation-delay: .85s;
+}
+.fade-in.seven, .fade-out.seven {
+    -webkit-animation-delay: 1s;
+    -moz-animation-delay: 1s;
+    animation-delay: 1s;
+}
+.fade-in.eight, .fade-out.eight {
+    -webkit-animation-delay: 1.15s;
+    -moz-animation-delay: 1.15s;
+    animation-delay: 1.15s;
+}
+.fade-in.nine, .fade-out.nine {
+    -webkit-animation-delay: 1.3s;
+    -moz-animation-delay: 1.3s;
+    animation-delay: 1.3s;
+}
+.fade-in.ten, .fade-out.ten {
+    -webkit-animation-delay: 1.45s;
+    -moz-animation-delay: 1.45s;
+    animation-delay: 1.45s;
+}
+.fade-in.eleven, .fade-out.eleven {
+    -webkit-animation-delay: 1.6s;
+    -moz-animation-delay: 1.6s;
+    animation-delay: 1.6s;
+}
+.fade-in.twelve, .fade-out.twelve {
+    -webkit-animation-delay: 1.75s;
+    -moz-animation-delay: 1.75s;
+    animation-delay: 1.75;
+}
+.fade-in.thirteen, .fade-out.thirteen {
+    -webkit-animation-delay: 1.9s;
+    -moz-animation-delay: 1.9s;
+    animation-delay: 1.9s;
+}
+.fade-in.fourteen, .fade-out.fourteen {
+    -webkit-animation-delay: 2.05s;
+    -moz-animation-delay: 2.05s;
+    animation-delay: 2.05s;
+}
+.fade-in.fifteen, .fade-out.fifteen {
+    -webkit-animation-delay: 2.2s;
+    -moz-animation-delay: 2.2s;
+    animation-delay: 2.2s;
+}
+.fade-in.sixteen, .fade-out.sixteen {
+    -webkit-animation-delay: 2.35s;
+    -moz-animation-delay: 2.35s;
+    animation-delay: 2.35s;
+}
+.fade-in.seventeen, .fade-out.seventeen {
+    -webkit-animation-delay: 2.50s;
+    -moz-animation-delay: 2.50s;
+    animation-delay: 2.50s;
+}
+.fade-in.eighteen, .fade-out.eighteen {
+    -webkit-animation-delay: 2.65s;
+    -moz-animation-delay: 2.65s;
+    animation-delay: 2.65s;
+}
+
+.ring {
+    position: absolute;
+    top: 63px;
+    left: 243px;
+    z-index: -1;
+    height: 480px;
+    width: 480px;
+    border-color: #D9D9D6;
+    background-color: #454545;
+    border-style: solid;
+    border-width: 8px;
+    border-radius: 50%;
+
+}
+
+
+
+@-webkit-keyframes orbit {
+    from { -webkit-transform:rotate(0deg) }
+    to { -webkit-transform:rotate(360deg) } }
+
+@keyframes rot {
+    from {
+        transform: rotate(0deg)
+        translate(-150px)
+        rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg)
+        translate(-150px)
+        rotate(-360deg);
+    }
+}
+
+
+
+
+
+
+
+@media(max-width:767px) {
+    .circle-xl {
+        border-radius: 75px;
+        padding: 10px;
+        height: 150px;
+        width: 150px;
+    }
+    .circle-xl h4 {
+        font-size: 1em;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        line-height: 15px;
+    }
+    .circle-xl h5 {
+        font-size: .8em;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        line-height: 12px;
+    }
+    .circle-xl img {
+        height: 45px;
+        margin-top: 0px
+    }
+    .circle-lg {
+        border-radius: 50px;
+        padding: 5px;
+        height: 100px;
+        width: 100px;
+        color: #fff;
+    }
+    .circle-lg h4 {
+        font-size: 1em;
+    }
+    .circle-lg img {
+        height: 45px;
+    }
+    .home-exercise {
+        position: absolute;
+          top: 270px;
+          left: 185px;
+    }
+    .home-sleep {
+        position: absolute;
+      top: 120px;
+      left: 260px;
+    }
+    .home-nutrition {
+        position: absolute;
+          top: 5px;
+          left: 150px;
+    }
+    .home-weight {
+        position: absolute;
+          top: 65px;
+          left: 0px;
+    }
+    .home-stress {
+        position: absolute;
+          top: 230px;
+          left: 10px;
+    }
+    .home-exit {
+        position: absolute;
+        top: 270px;
+        left: 0px;
+    }
+    .home-center {
+        position: absolute;
+        top: 240px;
+        left: 90px;
+    }
+    .result-content {
+        border-radius: 55px;
+        padding: 15px;
+        height: 110px;
+        width: 110px;
+        color: #fff;
+    }
+    .result-content h4 {
+        font-size: 0.7em;
+        position: relative;
+        top: 50%;
+        -webkit-transform: translateY(-50%);
+        transform: translateY(-50%);
+    }
+    .result-content img {
+        height: 50px;
+    }
+
+
+    /* .question-answered-tile{
+         height: 50px;
+         width: 50px;
+     }*/
+    .circle-sm{
+        height: 50px;
+        width: 50px;
+        padding: 0px;
+        margin: 0px;
+    }
+    .circle-sm img{
+        height: 40px;
+        width: 40px;
+
+    }
+
+    .circle-sm h4{
+        font-size: 1.5em;
+        font-weight: 600;
+    }
+    .circle-sm-border {
+        border-width: 2px;
+    }
+
+    .circle-med {
+        height: 80px;
+        width: 80px;
+        padding: 0px;
+    }
+    .circle-med img {
+        height: 35px;
+        width: 35px;
+    }
+    .circle-med h4 {
+        font-size: 1em;
+        text-align: center;
+        line-height: 10px;
+
+    }
+
+    .margin-right-5 {
+        margin-right: 3px;
+    }
+    .answer-exit {
+        position: absolute;
+        top: 300px;
+        left: 0px;
+    }
+
+    .answer-opt-1 {
+        position: absolute;
+        top: 50px;
+        left: 230px;
+    }
+
+    .answer-opt-2 {
+        position: absolute;
+        top: 230px;
+        left: 240px;
+    }
+
+    .answer-opt-3 {
+        position: absolute;
+        top: 230px;
+        left: 0px;
+    }
+
+    .answer-opt-4 {
+        position: absolute;
+        top: 50px;
+        left: 0px;
+    }
+
+    .q-1 {
+       margin-left: 3px;
+    }
+    .q-2 {
+        margin-left: 3px;
+    }
+    .q-3 {
+       margin-left: 3px;
+       margin-right: 0px;
+    }
+    .q-4 {
+       margin-left: 3px;
+    }
+    .result-exit {
+        position: absolute;
+        top: 300px;
+        left: 0px;
+    }
+    .result-content-1 {
+        position: absolute;
+        top: 220px;
+        left: 0px;
+    }
+    .result-content-2 {
+        position: absolute;
+        top: 280px;
+        left: 160px;
+    }
+    .result-content-3 {
+        position: absolute;
+        top: 0px;
+        left: 165px;
+    }
+    
+    .result-content-4 {
+        position: absolute;
+        top: 0px;
+        left: 165px;
+    }
+    .result-content-5 {
+        position: absolute;
+        top: 280px;
+        left: 160px;
+    }
+    .result-category-1 {
+        position: absolute;
+        top: 50px;
+        left: 110px;
+    }
+    .result-category-2 {
+        position: absolute;
+        top: 295px;
+        left: 102px;
+    }
+    .result-category-3 {
+        position: absolute;
+        top: 160px;
+        left: 15px;
+    }
+    .result-category-4 {
+        position: absolute;
+        top: 240px;
+        left: 255px;
+    }
+    .result-category-5 {
+        position: absolute;
+        top: 95px;
+        left: 255px;
+    }
+
+    .cigna-logo img{
+        height: 50px;
+        margin-top: 30px;
+        position: absolute;
+        left: 20px;
+    }
+    .login-small-1 {
+        position: absolute;
+        top: 270px;
+        left: 50px;
+    }
+    .login-small-2 {
+        position: absolute;
+        top: 210px;
+        left: 80px;
+    }
+    .login-small-3 {
+        position: absolute;
+        top: 180px;
+        left: 140px;
+    }
+    .login-lg-1 {
+        position: absolute;
+        top: 400px;
+        left: 100px;
+    }
+    .login-center-xl img{
+        width: 40px;
+        height: 40px;
+    }
+
+    .email img {
+        height: 30px;
+        width: 30px;
+
+
+    }
+    .google img {
+        height: 20px;
+        width: 15px;
+
+
+    }
+    .facebook img {
+        height: 20px;
+        width: 15px;
+
+
+    }
+    .result-circle-xl h6 {
+        font-size: .7em;
+        font-weight: 500;
+        margin-top: 0px;
+    }
+
+    .userid {
+        width: 135px;
+        margin-left: -5px;
+        height: 20px;
+        font-size: 0.7em;
+        margin-bottom: 5px;
+    }
+    .password {
+        width: 120px;
+        margin-left: auto;
+        height: 20px;
+        font-size: 0.7em;
+    }
+    .input-height {
+        width: 70px;
+        /*margin-left: 35px;*/
+        margin-top: 5px;
+        height: 30px;
+        font-size: 1.3em;
+    }
+    .input-weight {
+        width: 70px;
+        /*margin-left: 35px;*/
+        margin-top: 5px;
+        height: 30px;
+        font-size: 1.3em;
+    }
+
+    .login-lg-2 {
+        position: absolute;
+        top: 380px;
+        left: 200px;
+        text-align: center;
+        /*padding-top: 40px;*/
+    }
+    .login-lg-3 {
+        position: absolute;
+        top: 285px;
+        left: 260px;
+    }
+
+    .login-lg-4 {
+        position: absolute;
+        top: 190px;
+        left: 230px;
+
+    }
+    .circle-med h5 {
+        font-size: .7em;
+        line-height: 12px;
+
+    }
+    .login-lg-1 h5{
+        margin-left: 10px;
+        padding-right: 10px;
+    }
+    .login-lg-4 h5 {
+        margin-top: 0px;
+    }
+    .login-lg-2 h4 {
+        margin-top: 5px;
+    }
+    .error {
+        font-size: .7em;
+        width: 80px;
+        -webkit-transform: translateX(30%);
+        transform: translateX(30%);
+        line-height: .9em;
+
+    }
+    .login-center-xl h6{
+        margin-top: 5px;
+        margin-bottom: 0px;
+    }
+    .square {
+        height: 10px;
+        width: 10px;
+        background-color: #fff;
+        float: left;
+    }
+    .square-thin {
+        height: 10px;
+        width: 10px;
+        border: 1px solid #fff;
+        float: left;
+    }
+
+    .indicator-nutrition {
+        overflow: hidden;
+        width: 52px;
+        margin-top: 5px;
+        margin-left: auto;
+    }
+    .indicator-weight {
+        overflow: hidden;
+        width: 26px;
+        margin-top: 5px;
+        margin-left: auto;
+    }
+    .indicator-stress {
+        overflow: hidden;
+        width: 39px;
+        margin-top: 5px;
+        margin-left: auto;
+    }
+    .indicator-exercise {
+        overflow: hidden;
+        width: 39px;
+        margin-top: 5px;
+        margin-left: auto;
+    }
+    .indicator-sleep {
+        overflow: hidden;
+        width: 39px;
+        margin-top: 5px;
+        margin-left: auto;
+    }
+    .dob-hd-label {position: absolute;top: 30px;left: 25px;}
+    .dob-dd-label {position: absolute;top: 60px;left: 25px;}
+    .dob-dd-input {position: absolute;top: 75px;left: 25px;width: 40px;height: 20px;}
+    .dob-mm-label {position: absolute;top: 60px;left: 90px;}
+    .dob-mm-input {position: absolute;top: 75px;left: 90px;width: 40px;height: 20px;}
+    .dob-yy-label {position: absolute;top: 100px;left: 52px;}
+    .dob-yy-input {position: absolute;top: 115px;left: 45px;width: 60px;height: 20px;}
+    .result-circle-xl {        border-radius: 75px;        padding: 5px;        height: 150px;        width: 150px;    }
+    .result-circle-xl h4 {        font-size: 0.9em;        margin-top: 10px;        margin-bottom: 0px;    }
+    .result-circle-xl h5 {        font-size: 0.7em;        margin-top: 10px;        margin-bottom: 0px;    }
+
+    .result-circle-xl img {
+        height: 30px;
+        width: 30px;
+        margin-top: 5px;
+    }
+    .circle-lg h5 {
+        font-size: 1em;
+        line-height: 15px;
+    }
+    .name {
+        width: 70%;
+        height: 20px;
+        margin-top: 5px;
+    }
+    .display-name {
+        width: 95%;
+        height: 20px;
+        margin-top: 5px;
+    }
+    .terms-checkbox{
+
+        height: 20px;
+    }
+    .ring {
+      position: absolute;
+      top: 63px;
+      left: 40px;
+      height: 260px;
+      width: 260px;
+      border-width: 3px;
+    }
+    .center {
+      position: absolute;
+      top: 120px;
+      left: 95px;
+    }
+
+    .login-2 {
+        position: absolute;
+        top: 270px;
+        left: 185px;
+    }
+    .login-3 {
+        position: absolute;
+        top: 120px;
+        left: 260px;
+    }
+    .login-4 {
+        position: absolute;
+        top: 5px;
+        left: 150px;
+    }
+    .login-1 {
+        position: absolute;
+        top: 65px;
+        left: 0px;
+    }
+    .login-5 {
+        position: absolute;
+        top: 230px;
+        left: 10px;
+    }
+    .text-sm {
+        font-size: .8em;
+    }
+    .text-md {
+        font-size: .9em;
+    }
+    .text-lg {
+        font-size: 1em;
+    }
+    .login-logo img {
+        height: 30px;
+    }
+
+    .q-nav {
+      top: 360px;
+      left: 90px;
+      
+    }
+    .roundedinput{
+        margin-bottom: 0px;
+    }
+    .margin-top-20{
+        margin-top: 10px;
+    }
+}
